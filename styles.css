@@ -1,0 +1,60 @@
+#custom-header{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    height: 100px;
+    background-color: #731c6b;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px
+}
+
+#custom-form{
+    background-color: #4287f5;
+    height: 100px;
+    padding: 20px;
+    text-align: center
+}
+
+#pound-inp{
+    /* text-align: center; */
+    width: 500px;
+    align-content: center
+}
+
+#center-form{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center
+}
+
+.result-box{
+    background-color: #ebc167;
+    text-align: center;
+    width: 25%;
+    height: 70px;
+    margin-left: 37.5%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border: #ebc167 solid;
+    border-radius: 10px
+    
+
+
+}
+
+.error-box{
+    background-color: #f74d4d;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 70px;
+    margin-left: 37.5%;
+    border: #f74d4d solid;
+    border-radius: 10px
+
+
+}

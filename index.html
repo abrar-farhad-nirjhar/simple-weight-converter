@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Weight Converter</title>
+
+    <style>
+        body{
+            background-color: #51bdb8;
+        }
+    </style>
+</head>
+<body>
+    <div id="custom-header">
+        <h1> <strong>Simple Weight Converter</strong> </h1>
+    </div>
+
+    <div id="custom-form">
+        
+        <div class="form-size">
+            <div id="center-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="pound" id="value" class="form-control" placeholder="Enter a weight in pounds"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="error-box" id="error">Please enter a proper value...</div>
+
+    <br/>
+    <br/>
+
+    <div class="result-box" id="kgs"></div>
+    <br/>
+    <br/>
+
+    <div class="result-box" id="ounces"></div>
+    <br/>
+    <br/>
+
+    <div class="result-box" id="stones"></div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
